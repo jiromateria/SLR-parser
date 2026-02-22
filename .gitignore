@@ -1,15 +1,31 @@
 build/
+*/build/
+out/
+bin/
+
 *.o
-*.out
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+compiler
+unit_tests
 *.exe
+*.out
+
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 *.cmake
+CTestTestfile.cmake
+Testing/
 
-lex.yy.c
 lex.yy.cc
+lex.yy.c
+*.tab.cc
 *.tab.c
 *.tab.h
 
@@ -17,7 +33,7 @@ lex.yy.cc
 .idea/
 *.swp
 *.swo
-
+*~
 .DS_Store
 Thumbs.db
 
